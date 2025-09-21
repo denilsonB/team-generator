@@ -122,7 +122,7 @@ export default function Home() {
           />
           <Text bg="gray.800"
                 color="white">
-            Participantes por equipe:
+            Participantes por equipe: 
           </Text>
           <Input
             type="number"
