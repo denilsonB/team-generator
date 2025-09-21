@@ -90,7 +90,7 @@ export default function Home() {
       <Container maxW="3xl" minH="100vh" py={50} centerContent bgGradient="linear(to-b, gray.800, gray.900)">
         <Flex w="100%" gap={4} align="center">
           <Textarea
-            placeholder={`Digite: Nome - Nivel (um por linha)\nEx:\nJoão - 1\nMaria - 2`}
+            placeholder={`Digite: Nome - Nível (um por linha)\nEx:\nJoão - 1\nMaria - 2`}
             size="lg"
             flex="1"
             value={input}
@@ -110,7 +110,7 @@ export default function Home() {
         <Flex gap={4} mt={6} align="center">
           <Text bg="gray.800"
                 color="white">
-            Quantidade de Equipes: 
+            Quantidade de equipes: 
           </Text>
           <Input
             type="number"
