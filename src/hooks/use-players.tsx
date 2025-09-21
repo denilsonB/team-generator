@@ -32,7 +32,6 @@ export default function UsePlayers() {
   }
 
   React.useEffect(() => {
-    console.log(playersData);
     fetchPlayers();
   }, [playersData])
 
