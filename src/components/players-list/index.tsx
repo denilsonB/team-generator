@@ -36,7 +36,7 @@ export default function PlayersList() {
   }
 
   function handleConfirmEdit(player: Player) {
-    updatePlayer({ ...player, name: editName, level: editLevel });
+    updatePlayer({ ...player, name: editName, level: editLevel, enabled: true });
     setEditingId(null);
   }
 
